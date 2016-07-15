@@ -141,8 +141,8 @@ rivals.displayTimeline = function() {
  	rivals.setRewards($('#reward-passed'), {hour: 0, minute: 0}, {hour: 1, minute: 0});
  	// Local time 20:05-21:05
 	rivals.setRewards($('#reward-now'), {hour: -1, minute: 0}, {});
-	// Local time 17:05-20:05
-	rivals.setRewards($('#reward-soon'), {hour: -4, minute: -5}, {hour: -1, minute: 0});
+	// Local time 18:05-20:05
+	rivals.setRewards($('#reward-soon'), {hour: -3, minute: -5}, {hour: -1, minute: 0});
 
   $timeline.show();
   $timezones.hide();
