@@ -167,6 +167,7 @@ rivals.displayTimeZones = function() {
 
 
 rivals.loadTimeZones = function($container) {
+  $container.html('');
   $(rivals.jsonTimes).each(function(i,v) {
     $('<div>Timezone ' + v.Timezone + ' : ' + v.Name + '</div>').appendTo($container);
   });
